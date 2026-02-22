@@ -10,8 +10,8 @@ from scipy.spatial.distance import cosine
 
 # ===================== Configuration =====================
 
-FP_CALC_PATH = r"C:\Users\hp\PycharmProjects\PythonProject\fpcalc.exe"
-input_file = "de_de~ORF_1~2025-12-09.06.00.00-10.rec.wav"
+FP_CALC_PATH = r"C:\your path\fpcalc.exe"
+input_file = "file.wav"
 
 STREAM_FILE = "fixed_stream.wav"
 
@@ -193,3 +193,4 @@ for start in range(0, len(stream) - window_size + 1, step_size):
         recent_scores[best_ad].clear()
 
 print("Done.")
+
