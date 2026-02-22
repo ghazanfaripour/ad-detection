@@ -1,6 +1,6 @@
 import subprocess
 
-stream_file = r"C:\Users\hp\Downloads\Music\de_de~ORF_1~2025-12-09.06.00.00-10.rec.wav"
+stream_file = r"C:\file.wav"
 
 ad_times = [
     ("00:21:39", "00:22:20"),  # 02:15 - 02:40
@@ -21,3 +21,4 @@ for i, (start, end) in enumerate(ad_times):
     ]
     subprocess.run(cmd, check=True)
     print(f"Extracted {output_file}")
+
