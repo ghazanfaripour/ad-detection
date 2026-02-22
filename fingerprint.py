@@ -5,7 +5,7 @@ import base64
 import os
 
 #  fpcalc path
-FP_CALC_PATH = r"C:\Users\hp\PycharmProjects\PythonProject\fpcalc.exe"
+FP_CALC_PATH = r"C:\your path\fpcalc.exe"
 input_files = ["AD_0001.wav", "AD_0002.wav", "AD_0003.wav","AD_0004.wav", "AD_0005.wav", "AD_0006.wav"]
 fixed_files = ["AD_0001_fixed.wav", "AD_0002_fixed.wav", "AD_0003_fixed.wav", "AD_0004_fixed.wav", "AD_0005_fixed.wav", "AD_0006_fixed.wav"]
 
@@ -75,3 +75,4 @@ with open("fingerprints_segments.json", "w", encoding="utf-8") as f:
     json.dump(output, f, indent=2)
 
 print("Fingerprints for all ads generated and saved in fingerprints_segments.json")
+
